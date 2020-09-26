@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="com.commerce.qa.testcases.Logintest">
+        <methods>
+          <include name="onFinish"/>
+          <include name="config"/>
+          <include name="Verificationoflogin"/>
+          <include name="teardown"/>
+          <include name="Tear"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.commerce.qa.testcases.Logintest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

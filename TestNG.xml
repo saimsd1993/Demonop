@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce" thread-count="10" verbose="10" parallel="none" configfailurepolicy="skip">
+
+
+<listeners>
+<listener class-name="com.commerce.qa.extentlistener.Extentreporter"/>
+</listeners>
+
+<test name="Ecommerce Application">
+  <classes>
+			
+			
+			<class name="com.commerce.qa.testcases.Logintest" />
+			<class name="com.commerce.qa.testcases.Addresspagetest" />
+			<class name="com.commerce.qa.testcases.SearchpageTest" />
+			<class name="com.commerce.qa.testcases.TC_Homepage" />
+			<class name="com.commerce.qa.testcases.TC_Smoke" />
+			
+			
+			
+			
+			
+        </classes>
+        
+    </test>
+    </suite>
+    
+    
