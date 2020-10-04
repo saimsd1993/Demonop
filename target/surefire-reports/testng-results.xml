@@ -2,39 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="NopCommerce" duration-ms="24659" started-at="2020-09-26T09:30:36 IST" finished-at="2020-09-26T09:31:01 IST">
+  <suite name="NopCommerce" duration-ms="53822" started-at="2020-09-29T19:22:14 IST" finished-at="2020-09-29T19:23:07 IST">
     <groups>
     </groups>
-    <test name="Ecommerce Application" duration-ms="24659" started-at="2020-09-26T09:30:36 IST" finished-at="2020-09-26T09:31:01 IST">
+    <test name="Ecommerce Application" duration-ms="53822" started-at="2020-09-29T19:22:14 IST" finished-at="2020-09-29T19:23:07 IST">
       <class name="com.commerce.qa.testcases.Logintest">
-        <test-method status="PASS" signature="config()[pri:0, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="config" is-config="true" duration-ms="590" started-at="2020-09-26T09:30:36 IST" finished-at="2020-09-26T09:30:37 IST">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.commerce.qa.testcases.Logintest@1d29cf23]" name="config" is-config="true" duration-ms="181" started-at="2020-09-29T19:22:14 IST" finished-at="2020-09-29T19:22:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="check" is-config="true" duration-ms="18061" started-at="2020-09-26T09:30:37 IST" finished-at="2020-09-26T09:30:55 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Logintest@1d29cf23]" name="check" is-config="true" duration-ms="46282" started-at="2020-09-29T19:22:14 IST" finished-at="2020-09-29T19:23:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="Verificationoflogin" duration-ms="3025" started-at="2020-09-26T09:30:55 IST" finished-at="2020-09-26T09:30:58 IST">
+        <test-method status="PASS" signature="Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@1d29cf23]" name="Verificationoflogin" duration-ms="5778" started-at="2020-09-29T19:23:00 IST" finished-at="2020-09-29T19:23:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verificationoflogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="teardown" is-config="true" duration-ms="1410" started-at="2020-09-26T09:30:58 IST" finished-at="2020-09-26T09:30:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="Tear" is-config="true" duration-ms="33" started-at="2020-09-26T09:30:59 IST" finished-at="2020-09-26T09:30:59 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Logintest@1d29cf23]" name="Tear" is-config="true" duration-ms="1086" started-at="2020-09-29T19:23:06 IST" finished-at="2020-09-29T19:23:07 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verificationoflogin status=SUCCESS method=Logintest.Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@2038ae61] output={null}]]]>
+                <![CDATA[[TestResult name=Verificationoflogin status=SUCCESS method=Logintest.Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@1d29cf23] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.commerce.qa.testcases.Logintest@2038ae61]" name="onFinish" is-config="true" duration-ms="1496" started-at="2020-09-26T09:30:59 IST" finished-at="2020-09-26T09:31:01 IST">
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.commerce.qa.testcases.Logintest@1d29cf23]" name="onFinish" is-config="true" duration-ms="448" started-at="2020-09-29T19:23:07 IST" finished-at="2020-09-29T19:23:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onFinish -->

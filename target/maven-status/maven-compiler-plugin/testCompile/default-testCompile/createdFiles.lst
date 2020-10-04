@@ -1,0 +1,8 @@
+com\commerce\qa\testcases\TC_Homepage.class
+com\commerce\qa\testcases\Noprunner.class
+com\commerce\qa\testcases\TC_Smoke.class
+com\commerce\qa\testcases\Cartpagetest.class
+com\commerce\qa\testcases\Wishlistpagetest.class
+com\commerce\qa\testcases\Addresspagetest.class
+com\commerce\qa\testcases\Logintest.class
+com\commerce\qa\testcases\SearchpageTest.class

@@ -1,0 +1,146 @@
+2020-09-27 09:27:57,949 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 09:27:58,075 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 09:28:03,401 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 09:30:18,315 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 09:30:18,333 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 09:30:23,985 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 09:45:00,100 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 09:45:00,156 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 09:45:03,611 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 09:49:38,005 [main] INFO Baseclass - Loginpage test Started 
+2020-09-27 09:49:38,025 [main] INFO Baseclass - Entering valid user details 
+2020-09-27 09:49:39,475 [main] INFO Baseclass - Login Successfull
+2020-09-27 13:21:41,177 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:21:41,312 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:21:43,518 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:21:43,628 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:21:57,850 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:28:02,267 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:28:02,282 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:28:04,944 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:28:05,038 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:28:15,439 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:31:45,463 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:31:45,477 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:31:47,917 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:31:48,010 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:32:00,129 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:33:37,463 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:33:37,472 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:33:40,133 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:33:44,095 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:33:47,703 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:34:41,987 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:34:41,996 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:34:45,569 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:34:47,991 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:34:52,419 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:35:37,432 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:35:37,441 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:35:40,568 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:35:40,682 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:35:54,962 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 13:36:31,625 [TestNG-tests-1] INFO Baseclass - Homepage test Started 
+2020-09-27 13:36:31,641 [TestNG-tests-1] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 13:36:33,795 [TestNG-tests-1] INFO Baseclass - Clicking on first product
+2020-09-27 13:36:33,895 [TestNG-tests-1] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 13:36:58,702 [TestNG-tests-1] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-27 16:26:28,962 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:26:29,116 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 16:26:34,760 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 16:27:12,205 [TestNG-tests-2] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:27:12,207 [TestNG-tests-2] INFO Baseclass - Entering valid user details 
+2020-09-27 16:27:17,633 [TestNG-tests-2] INFO Baseclass - Login Successfull
+2020-09-27 16:28:33,071 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:28:33,218 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 16:28:36,314 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 16:28:58,509 [TestNG-tests-2] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:28:58,511 [TestNG-tests-2] INFO Baseclass - Entering valid user details 
+2020-09-27 16:29:02,061 [TestNG-tests-2] INFO Baseclass - Login Successfull
+2020-09-27 16:43:30,542 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:43:30,800 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 16:43:39,229 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 16:43:56,028 [TestNG-tests-2] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:43:56,029 [TestNG-tests-2] INFO Baseclass - Entering valid user details 
+2020-09-27 16:46:49,204 [TestNG-tests-2] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:46:49,353 [TestNG-tests-2] INFO Baseclass - Entering valid user details 
+2020-09-27 16:46:50,642 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:46:50,643 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 16:47:00,070 [TestNG-tests-2] INFO Baseclass - Login Successfull
+2020-09-27 16:48:54,375 [TestNG-tests-1] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:48:54,519 [TestNG-tests-1] INFO Baseclass - Entering valid user details 
+2020-09-27 16:49:03,149 [TestNG-tests-2] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:49:03,151 [TestNG-tests-2] INFO Baseclass - Entering valid user details 
+2020-09-27 16:49:10,455 [TestNG-tests-1] INFO Baseclass - Login Successfull
+2020-09-27 16:53:42,251 [main] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:53:42,287 [main] INFO Baseclass - Entering valid user details 
+2020-09-27 16:53:47,170 [main] INFO Baseclass - Login Successfull
+2020-09-27 16:59:42,778 [main] INFO Baseclass - Loginpage test Started 
+2020-09-27 16:59:42,928 [main] INFO Baseclass - Entering valid user details 
+2020-09-27 16:59:46,705 [main] INFO Baseclass - Login Successfull
+2020-09-27 17:13:13,497 [main] INFO Baseclass - Loginpage test Started 
+2020-09-27 17:13:13,667 [main] INFO Baseclass - Entering valid user details 
+2020-09-27 17:13:16,888 [main] INFO Baseclass - Login Successfull
+2020-09-27 17:16:36,969 [main] INFO Baseclass - Cartpage test Started 
+2020-09-27 17:16:37,017 [main] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 17:16:38,708 [main] INFO Baseclass - Clicking on first product
+2020-09-27 17:16:42,191 [main] INFO Baseclass - Waiting for elelemnt to visible
+2020-09-27 17:16:42,267 [main] INFO Baseclass - clicking on add to cart button
+2020-09-27 17:16:42,401 [main] INFO Baseclass - Verifying add to cart success message
+2020-09-27 17:16:42,981 [main] INFO Baseclass - success message closed
+2020-09-27 17:16:46,925 [main] INFO Baseclass - Applying coupon code
+2020-09-27 17:16:48,515 [main] INFO Baseclass - Text Verified :The coupon code was applied
+2020-09-27 17:16:58,594 [main] INFO Baseclass - Homepage test Started 
+2020-09-27 17:16:58,596 [main] INFO Baseclass - Clicking on books ctaegory
+2020-09-27 17:17:00,541 [main] INFO Baseclass - Clicking on first product
+2020-09-27 17:17:00,622 [main] INFO Baseclass - Clicking on Add to wishlist button
+2020-09-27 17:17:14,302 [main] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-09-29 19:23:00,556 [main] INFO Baseclass - Loginpage test Started 
+2020-09-29 19:23:00,615 [main] INFO Baseclass - Entering valid user details 
+2020-09-29 19:23:06,323 [main] INFO Baseclass - Login Successfull
+2020-10-04 09:36:16,289 [main] INFO Baseclass - Loginpage test Started 
+2020-10-04 09:36:16,466 [main] INFO Baseclass - Entering valid user details 
+2020-10-04 09:36:19,738 [main] INFO Baseclass - Login Successfull
+2020-10-04 09:48:36,299 [main] INFO Baseclass - Loginpage test Started 
+2020-10-04 09:48:36,565 [main] INFO Baseclass - Entering valid user details 
+2020-10-04 09:48:41,528 [main] INFO Baseclass - Login Successfull
+2020-10-04 09:56:52,475 [main] INFO Baseclass - Loginpage test Started 
+2020-10-04 09:56:52,488 [main] INFO Baseclass - Entering valid user details 
+2020-10-04 09:56:55,943 [main] INFO Baseclass - Login Successfull
+2020-10-04 10:18:26,960 [main] INFO Baseclass - Cartpage test Started 
+2020-10-04 10:18:27,125 [main] INFO Baseclass - Clicking on books ctaegory
+2020-10-04 10:18:29,245 [main] INFO Baseclass - Clicking on first product
+2020-10-04 10:18:33,263 [main] INFO Baseclass - Waiting for elelemnt to visible
+2020-10-04 10:18:33,504 [main] INFO Baseclass - clicking on add to cart button
+2020-10-04 10:18:33,706 [main] INFO Baseclass - Verifying add to cart success message
+2020-10-04 10:18:35,026 [main] INFO Baseclass - success message closed
+2020-10-04 10:18:39,817 [main] INFO Baseclass - Applying coupon code
+2020-10-04 10:18:42,544 [main] INFO Baseclass - Text Verified :The coupon code was applied
+2020-10-04 10:18:53,424 [main] INFO Baseclass - Homepage test Started 
+2020-10-04 10:18:53,426 [main] INFO Baseclass - Clicking on books ctaegory
+2020-10-04 10:18:54,805 [main] INFO Baseclass - Clicking on first product
+2020-10-04 10:18:54,906 [main] INFO Baseclass - Clicking on Add to wishlist button
+2020-10-04 10:19:29,653 [main] INFO Baseclass - Clicking Remove wishlist checkbox
+2020-10-04 10:43:00,587 [main] INFO Baseclass - Cartpage test Started 
+2020-10-04 10:43:00,675 [main] INFO Baseclass - Clicking on books ctaegory
+2020-10-04 10:43:01,923 [main] INFO Baseclass - Clicking on first product
+2020-10-04 10:43:05,536 [main] INFO Baseclass - Waiting for elelemnt to visible
+2020-10-04 10:43:05,606 [main] INFO Baseclass - clicking on add to cart button
+2020-10-04 10:43:05,728 [main] INFO Baseclass - Verifying add to cart success message
+2020-10-04 10:43:07,737 [main] INFO Baseclass - success message closed
+2020-10-04 10:43:11,244 [main] INFO Baseclass - Applying coupon code
+2020-10-04 10:43:12,625 [main] INFO Baseclass - Text Verified :The coupon code was applied
+2020-10-04 11:07:42,564 [main] INFO Baseclass - Cartpage test Started 
+2020-10-04 11:07:42,691 [main] INFO Baseclass - Clicking on books ctaegory
+2020-10-04 11:07:44,764 [main] INFO Baseclass - Clicking on first product
+2020-10-04 11:07:48,279 [main] INFO Baseclass - Waiting for elelemnt to visible
+2020-10-04 11:07:48,338 [main] INFO Baseclass - clicking on add to cart button
+2020-10-04 11:07:48,461 [main] INFO Baseclass - Verifying add to cart success message
+2020-10-04 11:07:50,008 [main] INFO Baseclass - success message closed
+2020-10-04 11:07:53,345 [main] INFO Baseclass - Applying coupon code
+2020-10-04 11:07:54,944 [main] INFO Baseclass - Text Verified :The coupon code was applied
+2020-10-04 11:08:06,884 [main] INFO Baseclass - Homepage test Started 
+2020-10-04 11:08:06,886 [main] INFO Baseclass - Clicking on books ctaegory
+2020-10-04 11:08:08,699 [main] INFO Baseclass - Clicking on first product
+2020-10-04 11:08:08,787 [main] INFO Baseclass - Clicking on Add to wishlist button
+2020-10-04 11:08:20,192 [main] INFO Baseclass - Clicking Remove wishlist checkbox

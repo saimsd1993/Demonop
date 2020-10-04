@@ -3,20 +3,10 @@
 <suite thread-count="10" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [NopCommerce]">
   <listeners>
     <listener class-name="com.commerce.qa.extentlistener.Extentreporter"/>
+    <listener class-name="com.commerce.qa.utils.MongoDBTestListener"/>
   </listeners>
   <test thread-count="10" verbose="10" name="Ecommerce Application(failed)">
     <classes>
-      <class name="com.commerce.qa.testcases.TC_Homepage">
-        <methods>
-          <include name="Endtoendflow"/>
-          <include name="Headerverify"/>
-          <include name="onFinish"/>
-          <include name="config"/>
-          <include name="Homepagedetails"/>
-          <include name="check"/>
-          <include name="Tear"/>
-        </methods>
-      </class> <!-- com.commerce.qa.testcases.TC_Homepage -->
       <class name="com.commerce.qa.testcases.TC_Smoke">
         <methods>
           <include name="check"/>
@@ -26,24 +16,6 @@
           <include name="Tear"/>
         </methods>
       </class> <!-- com.commerce.qa.testcases.TC_Smoke -->
-      <class name="com.commerce.qa.testcases.Addresspagetest">
-        <methods>
-          <include name="check"/>
-          <include name="onFinish"/>
-          <include name="config"/>
-          <include name="verifyaddress" invocation-numbers="0 1 2"/>
-          <include name="Tear"/>
-        </methods>
-      </class> <!-- com.commerce.qa.testcases.Addresspagetest -->
-      <class name="com.commerce.qa.testcases.SearchpageTest">
-        <methods>
-          <include name="onFinish"/>
-          <include name="config"/>
-          <include name="check"/>
-          <include name="verifysearchresults"/>
-          <include name="Tear"/>
-        </methods>
-      </class> <!-- com.commerce.qa.testcases.SearchpageTest -->
     </classes>
   </test> <!-- Ecommerce Application(failed) -->
 </suite> <!-- Failed suite [NopCommerce] -->

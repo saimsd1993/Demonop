@@ -5,25 +5,20 @@
 
 <listeners>
 <listener class-name="com.commerce.qa.extentlistener.Extentreporter"/>
+<listener class-name="com.commerce.qa.utils.MongoDBTestListener"/>
 </listeners>
 
 <test name="Ecommerce Application">
   <classes>
-			
-			
-			<class name="com.commerce.qa.testcases.Logintest" />
 			<class name="com.commerce.qa.testcases.Addresspagetest" />
 			<class name="com.commerce.qa.testcases.SearchpageTest" />
 			<class name="com.commerce.qa.testcases.TC_Homepage" />
+			<class name="com.commerce.qa.testcases.Cartpagetest"/>
+			<class name="com.commerce.qa.testcases.Wishlistpagetest"/>
 			<class name="com.commerce.qa.testcases.TC_Smoke" />
-			
-			
-			
-			
-			
         </classes>
         
     </test>
-    </suite>
+     </suite>
     
     

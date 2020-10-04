@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +117,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce" title="com.commerce.qa.testcases.Logintest" hash-for-method="Verificationoflogin">Verificationoflogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce" title="com.commerce.qa.testcases.Wishlistpagetest" hash-for-method="VerifyWishlistpage">VerifyWishlistpage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +142,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NopCommerce" title="com.commerce.qa.testcases.Cartpagetest" hash-for-method="verifycoupon">verifycoupon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-NopCommerce" title="com.commerce.qa.testcases.SearchpageTest" hash-for-method="verifysearchresults">verifysearchresults</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -160,14 +165,29 @@
           <div class="suite-NopCommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.commerce.qa.testcases.Logintest</span>
+              <span class="class-name">com.commerce.qa.testcases.SearchpageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verificationoflogin">
-                  </a> <!-- Verificationoflogin -->
-                  <span class="method-name">Verificationoflogin</span>
+                  <a name="verifysearchresults">
+                  </a> <!-- verifysearchresults -->
+                  <span class="method-name">verifysearchresults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NopCommerce-class-passed -->
+          <div class="suite-NopCommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.commerce.qa.testcases.Cartpagetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycoupon">
+                  </a> <!-- verifycoupon -->
+                  <span class="method-name">verifycoupon</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -204,14 +224,14 @@
           <div class="suite-NopCommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.commerce.qa.testcases.TC_Smoke</span>
+              <span class="class-name">com.commerce.qa.testcases.Wishlistpagetest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="smoketest">
-                  </a> <!-- smoketest -->
-                  <span class="method-name">smoketest</span>
+                  <a name="VerifyWishlistpage">
+                  </a> <!-- VerifyWishlistpage -->
+                  <span class="method-name">VerifyWishlistpage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,14 +271,14 @@
           <div class="suite-NopCommerce-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.commerce.qa.testcases.SearchpageTest</span>
+              <span class="class-name">com.commerce.qa.testcases.TC_Smoke</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifysearchresults">
-                  </a> <!-- verifysearchresults -->
-                  <span class="method-name">verifysearchresults</span>
+                  <a name="smoketest">
+                  </a> <!-- smoketest -->
+                  <span class="method-name">smoketest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -275,13 +295,15 @@
 &lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;NopCommerce&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.commerce.qa.extentlistener.Extentreporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.commerce.qa.utils.MongoDBTestListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;10&quot; verbose=&quot;10&quot; name=&quot;Ecommerce Application&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.commerce.qa.testcases.Logintest&quot;/&gt;
       &lt;class name=&quot;com.commerce.qa.testcases.Addresspagetest&quot;/&gt;
       &lt;class name=&quot;com.commerce.qa.testcases.SearchpageTest&quot;/&gt;
       &lt;class name=&quot;com.commerce.qa.testcases.TC_Homepage&quot;/&gt;
+      &lt;class name=&quot;com.commerce.qa.testcases.Cartpagetest&quot;/&gt;
+      &lt;class name=&quot;com.commerce.qa.testcases.Wishlistpagetest&quot;/&gt;
       &lt;class name=&quot;com.commerce.qa.testcases.TC_Smoke&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Ecommerce Application --&gt;
@@ -296,7 +318,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Ecommerce Application (5 classes)</span>
+                <span class="test-name">Ecommerce Application (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -322,48 +344,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'smoketest')
 data.setCell(0, 2, 'com.commerce.qa.testcases.TC_Smoke')
-data.setCell(0, 3, 35246);
+data.setCell(0, 3, 42570);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyaddress')
 data.setCell(1, 2, 'com.commerce.qa.testcases.Addresspagetest')
-data.setCell(1, 3, 33894);
+data.setCell(1, 3, 39853);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyaddress')
 data.setCell(2, 2, 'com.commerce.qa.testcases.Addresspagetest')
-data.setCell(2, 3, 33512);
+data.setCell(2, 3, 35043);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyaddress')
 data.setCell(3, 2, 'com.commerce.qa.testcases.Addresspagetest')
-data.setCell(3, 3, 31632);
+data.setCell(3, 3, 32454);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Endtoendflow')
-data.setCell(4, 2, 'com.commerce.qa.testcases.TC_Homepage')
-data.setCell(4, 3, 13931);
+data.setCell(4, 1, 'VerifyWishlistpage')
+data.setCell(4, 2, 'com.commerce.qa.testcases.Wishlistpagetest')
+data.setCell(4, 3, 21910);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Homepagedetails')
+data.setCell(5, 1, 'Endtoendflow')
 data.setCell(5, 2, 'com.commerce.qa.testcases.TC_Homepage')
-data.setCell(5, 3, 8384);
+data.setCell(5, 3, 16353);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Headerverify')
-data.setCell(6, 2, 'com.commerce.qa.testcases.TC_Homepage')
-data.setCell(6, 3, 5773);
+data.setCell(6, 1, 'verifycoupon')
+data.setCell(6, 2, 'com.commerce.qa.testcases.Cartpagetest')
+data.setCell(6, 3, 12383);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Verificationoflogin')
-data.setCell(7, 2, 'com.commerce.qa.testcases.Logintest')
-data.setCell(7, 3, 2067);
+data.setCell(7, 1, 'Homepagedetails')
+data.setCell(7, 2, 'com.commerce.qa.testcases.TC_Homepage')
+data.setCell(7, 3, 10665);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifysearchresults')
-data.setCell(8, 2, 'com.commerce.qa.testcases.SearchpageTest')
-data.setCell(8, 3, 1996);
+data.setCell(8, 1, 'Headerverify')
+data.setCell(8, 2, 'com.commerce.qa.testcases.TC_Homepage')
+data.setCell(8, 3, 4690);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifysearchresults')
+data.setCell(9, 2, 'com.commerce.qa.testcases.SearchpageTest')
+data.setCell(9, 3, 2539);
 window.suiteTableData['NopCommerce']= { tableData: data, tableDiv: 'times-div-NopCommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-NopCommerce">
               </div> <!-- times-div-NopCommerce -->
             </div> <!-- times-div -->
@@ -378,11 +404,38 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-NopCommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">8 ignored methods</span>
+            <span class="header-content">10 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.commerce.qa.testcases.SearchpageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onFinish</span>
+                <br/>
+                <span class="ignored-method-name">config</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.commerce.qa.testcases.Cartpagetest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onFinish</span>
+                <br/>
+                <span class="ignored-method-name">config</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.commerce.qa.testcases.TC_Homepage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">onFinish</span>
+                <br/>
+                <span class="ignored-method-name">config</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.commerce.qa.testcases.Wishlistpagetest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">onFinish</span>
                 <br/>
@@ -399,24 +452,6 @@ return data;
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.commerce.qa.testcases.Addresspagetest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">onFinish</span>
-                <br/>
-                <span class="ignored-method-name">config</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.commerce.qa.testcases.SearchpageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">onFinish</span>
-                <br/>
-                <span class="ignored-method-name">config</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-NopCommerce" class="panel">
@@ -425,137 +460,152 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.commerce.qa.testcases.Logintest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.commerce.qa.testcases.Addresspagetest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">config</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">185 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Verificationoflogin</span>
-                <span class="method-start">11153 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">Tear([TestResult name=Verificationoflogin status=SUCCESS method=Logintest.Verificationoflogin()[pri:1, in...)</span>
-                <span class="method-start">13227 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.commerce.qa.testcases.Addresspagetest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">check</span>
-                <span class="method-start">15483 ms</span>
+                <span class="method-start">2608 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyaddress(John, K, abc@gmail.com, Chennai, No7 Stree, 600076.0, 9.87654321E9)</span>
-                <span class="method-start">23553 ms</span>
+                <span class="method-start">22514 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String,...)</span>
-                <span class="method-start">57067 ms</span>
+                <span class="method-start">63624 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">57881 ms</span>
+                <span class="method-start">64864 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyaddress(Arun, M, mnc@gmail.com, Delhi, No 8 street, 600087.0, 9.876543217E9)</span>
-                <span class="method-start">65782 ms</span>
+                <span class="method-start">77648 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String,...)</span>
-                <span class="method-start">99679 ms</span>
+                <span class="method-start">112740 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">100647 ms</span>
+                <span class="method-start">114004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyaddress(Rohit, L, gdp@gmail.com, Banglore, No 20 Street, 600065.0, 9.876543216E9)</span>
-                <span class="method-start">108692 ms</span>
+                <span class="method-start">125464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String,...)</span>
-                <span class="method-start">140326 ms</span>
+                <span class="method-start">157943 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.commerce.qa.testcases.SearchpageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">141151 ms</span>
+                <span class="method-start">159154 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifysearchresults</span>
-                <span class="method-start">148861 ms</span>
+                <span class="method-start">169661 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=verifysearchresults status=SUCCESS method=SearchpageTest.verifysearchresults()[pri:...)</span>
-                <span class="method-start">150859 ms</span>
+                <span class="method-start">172225 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.commerce.qa.testcases.TC_Homepage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">151686 ms</span>
+                <span class="method-start">173206 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Homepagedetails</span>
-                <span class="method-start">159523 ms</span>
+                <span class="method-start">182296 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=Homepagedetails status=SUCCESS method=TC_Homepage.Homepagedetails()[pri:0, instance...)</span>
-                <span class="method-start">167909 ms</span>
+                <span class="method-start">193020 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">168752 ms</span>
+                <span class="method-start">194476 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Endtoendflow</span>
-                <span class="method-start">182113 ms</span>
+                <span class="method-start">206284 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=Endtoendflow status=SUCCESS method=TC_Homepage.Endtoendflow()[pri:1, instance:com.c...)</span>
-                <span class="method-start">196047 ms</span>
+                <span class="method-start">222640 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">196893 ms</span>
+                <span class="method-start">224060 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Headerverify</span>
-                <span class="method-start">205043 ms</span>
+                <span class="method-start">235987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=Headerverify status=SUCCESS method=TC_Homepage.Headerverify()[pri:2, instance:com.c...)</span>
-                <span class="method-start">210817 ms</span>
+                <span class="method-start">240684 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.commerce.qa.testcases.Cartpagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">241825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifycoupon</span>
+                <span class="method-start">249907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Tear([TestResult name=verifycoupon status=SUCCESS method=Cartpagetest.verifycoupon()[pri:0, instance:com....)</span>
+                <span class="method-start">262294 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.commerce.qa.testcases.Wishlistpagetest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">263632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyWishlistpage</span>
+                <span class="method-start">274227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Tear([TestResult name=VerifyWishlistpage status=SUCCESS method=Wishlistpagetest.VerifyWishlistpage()[pri:...)</span>
+                <span class="method-start">296142 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.commerce.qa.testcases.TC_Smoke</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">check</span>
-                <span class="method-start">212059 ms</span>
+                <span class="method-start">297210 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">smoketest</span>
-                <span class="method-start">220196 ms</span>
+                <span class="method-start">306703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Tear([TestResult name=smoketest status=SUCCESS method=TC_Smoke.smoketest()[pri:0, instance:com.commerce.q...)</span>
-                <span class="method-start">255444 ms</span>
+                <span class="method-start">349296 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.commerce.qa.testcases.Logintest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.commerce.qa.testcases.Addresspagetest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">onFinish</span>
-                <span class="method-start">256260 ms</span>
+                <span class="method-start">351342 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

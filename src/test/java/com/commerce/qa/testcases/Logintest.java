@@ -3,6 +3,7 @@ package com.commerce.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
@@ -12,7 +13,8 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class Logintest extends Baseclass{
 	Loginpage lp;
-	Logger logger=Logger.getLogger(Logintest.class);
+	
+	
 	public Logintest()
 	{
 		super();
@@ -24,7 +26,6 @@ public class Logintest extends Baseclass{
 		fsetup();
 		lp=new Loginpage();
 	}
-	
 	@Test(priority=1)
 	public void Verificationoflogin()
 	{

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="17" passed="9">
+<testng-results skipped="0" failed="0" ignored="10" total="20" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="NopCommerce" duration-ms="256692" started-at="2020-09-26T11:27:57 IST" finished-at="2020-09-26T11:32:14 IST">
+  <suite name="NopCommerce" duration-ms="356390" started-at="2020-10-04T11:03:32 IST" finished-at="2020-10-04T11:09:28 IST">
     <groups>
     </groups>
-    <test name="Ecommerce Application" duration-ms="256692" started-at="2020-09-26T11:27:57 IST" finished-at="2020-09-26T11:32:14 IST">
+    <test name="Ecommerce Application" duration-ms="356390" started-at="2020-10-04T11:03:32 IST" finished-at="2020-10-04T11:09:28 IST">
       <class name="com.commerce.qa.testcases.SearchpageTest">
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@150c158]" name="check" is-config="true" duration-ms="7710" started-at="2020-09-26T11:30:19 IST" finished-at="2020-09-26T11:30:26 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@954b04f]" name="check" is-config="true" duration-ms="10505" started-at="2020-10-04T11:06:11 IST" finished-at="2020-10-04T11:06:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="verifysearchresults()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@150c158]" name="verifysearchresults" duration-ms="1996" started-at="2020-09-26T11:30:26 IST" finished-at="2020-09-26T11:30:28 IST">
+        <test-method status="PASS" signature="verifysearchresults()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@954b04f]" name="verifysearchresults" duration-ms="2539" started-at="2020-10-04T11:06:22 IST" finished-at="2020-10-04T11:06:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysearchresults -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@150c158]" name="Tear" is-config="true" duration-ms="824" started-at="2020-09-26T11:30:28 IST" finished-at="2020-09-26T11:30:29 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@954b04f]" name="Tear" is-config="true" duration-ms="980" started-at="2020-10-04T11:06:24 IST" finished-at="2020-10-04T11:06:25 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifysearchresults status=SUCCESS method=SearchpageTest.verifysearchresults()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@150c158] output={null}]]]>
+                <![CDATA[[TestResult name=verifysearchresults status=SUCCESS method=SearchpageTest.verifysearchresults()[pri:0, instance:com.commerce.qa.testcases.SearchpageTest@954b04f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -28,57 +28,57 @@
         </test-method> <!-- Tear -->
       </class> <!-- com.commerce.qa.testcases.SearchpageTest -->
       <class name="com.commerce.qa.testcases.TC_Homepage">
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="check" is-config="true" duration-ms="7837" started-at="2020-09-26T11:30:29 IST" finished-at="2020-09-26T11:30:37 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="check" is-config="true" duration-ms="9090" started-at="2020-10-04T11:06:25 IST" finished-at="2020-10-04T11:06:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="Homepagedetails()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Homepagedetails" duration-ms="8384" started-at="2020-09-26T11:30:37 IST" finished-at="2020-09-26T11:30:45 IST">
+        <test-method status="PASS" signature="Homepagedetails()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Homepagedetails" duration-ms="10665" started-at="2020-10-04T11:06:34 IST" finished-at="2020-10-04T11:06:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepagedetails -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Tear" is-config="true" duration-ms="841" started-at="2020-09-26T11:30:45 IST" finished-at="2020-09-26T11:30:46 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Tear" is-config="true" duration-ms="1455" started-at="2020-10-04T11:06:45 IST" finished-at="2020-10-04T11:06:47 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Homepagedetails status=SUCCESS method=TC_Homepage.Homepagedetails()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f] output={null}]]]>
+                <![CDATA[[TestResult name=Homepagedetails status=SUCCESS method=TC_Homepage.Homepagedetails()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="check" is-config="true" duration-ms="13361" started-at="2020-09-26T11:30:46 IST" finished-at="2020-09-26T11:31:00 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="check" is-config="true" duration-ms="11807" started-at="2020-10-04T11:06:47 IST" finished-at="2020-10-04T11:06:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="Endtoendflow()[pri:1, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Endtoendflow" duration-ms="13931" started-at="2020-09-26T11:31:00 IST" finished-at="2020-09-26T11:31:13 IST">
+        <test-method status="PASS" signature="Endtoendflow()[pri:1, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Endtoendflow" duration-ms="16353" started-at="2020-10-04T11:06:58 IST" finished-at="2020-10-04T11:07:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Endtoendflow -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Tear" is-config="true" duration-ms="845" started-at="2020-09-26T11:31:13 IST" finished-at="2020-09-26T11:31:14 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Tear" is-config="true" duration-ms="1420" started-at="2020-10-04T11:07:15 IST" finished-at="2020-10-04T11:07:16 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Endtoendflow status=SUCCESS method=TC_Homepage.Endtoendflow()[pri:1, instance:com.commerce.qa.testcases.TC_Homepage@4524411f] output={null}]]]>
+                <![CDATA[[TestResult name=Endtoendflow status=SUCCESS method=TC_Homepage.Endtoendflow()[pri:1, instance:com.commerce.qa.testcases.TC_Homepage@149494d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="check" is-config="true" duration-ms="8150" started-at="2020-09-26T11:31:14 IST" finished-at="2020-09-26T11:31:22 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="check" is-config="true" duration-ms="11927" started-at="2020-10-04T11:07:16 IST" finished-at="2020-10-04T11:07:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="Headerverify()[pri:2, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Headerverify" duration-ms="5773" started-at="2020-09-26T11:31:22 IST" finished-at="2020-09-26T11:31:28 IST">
+        <test-method status="PASS" signature="Headerverify()[pri:2, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Headerverify" duration-ms="4690" started-at="2020-10-04T11:07:28 IST" finished-at="2020-10-04T11:07:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Headerverify -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@4524411f]" name="Tear" is-config="true" duration-ms="1241" started-at="2020-09-26T11:31:28 IST" finished-at="2020-09-26T11:31:29 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Homepage@149494d8]" name="Tear" is-config="true" duration-ms="1141" started-at="2020-10-04T11:07:33 IST" finished-at="2020-10-04T11:07:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Headerverify status=SUCCESS method=TC_Homepage.Headerverify()[pri:2, instance:com.commerce.qa.testcases.TC_Homepage@4524411f] output={null}]]]>
+                <![CDATA[[TestResult name=Headerverify status=SUCCESS method=TC_Homepage.Headerverify()[pri:2, instance:com.commerce.qa.testcases.TC_Homepage@149494d8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -86,49 +86,20 @@
           </reporter-output>
         </test-method> <!-- Tear -->
       </class> <!-- com.commerce.qa.testcases.TC_Homepage -->
-      <class name="com.commerce.qa.testcases.Logintest">
-        <test-method status="PASS" signature="config()[pri:0, instance:com.commerce.qa.testcases.Logintest@544a2ea6]" name="config" is-config="true" duration-ms="154" started-at="2020-09-26T11:27:57 IST" finished-at="2020-09-26T11:27:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Logintest@544a2ea6]" name="check" is-config="true" duration-ms="10967" started-at="2020-09-26T11:27:58 IST" finished-at="2020-09-26T11:28:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- check -->
-        <test-method status="PASS" signature="Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@544a2ea6]" name="Verificationoflogin" duration-ms="2067" started-at="2020-09-26T11:28:09 IST" finished-at="2020-09-26T11:28:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verificationoflogin -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Logintest@544a2ea6]" name="Tear" is-config="true" duration-ms="1319" started-at="2020-09-26T11:28:11 IST" finished-at="2020-09-26T11:28:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Verificationoflogin status=SUCCESS method=Logintest.Verificationoflogin()[pri:1, instance:com.commerce.qa.testcases.Logintest@544a2ea6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.commerce.qa.testcases.Logintest@544a2ea6]" name="onFinish" is-config="true" duration-ms="424" started-at="2020-09-26T11:32:14 IST" finished-at="2020-09-26T11:32:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onFinish -->
-      </class> <!-- com.commerce.qa.testcases.Logintest -->
       <class name="com.commerce.qa.testcases.TC_Smoke">
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@401e7803]" name="check" is-config="true" duration-ms="8137" started-at="2020-09-26T11:31:29 IST" finished-at="2020-09-26T11:31:38 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@481a15ff]" name="check" is-config="true" duration-ms="9493" started-at="2020-10-04T11:08:29 IST" finished-at="2020-10-04T11:08:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@401e7803]" name="smoketest" duration-ms="35246" started-at="2020-09-26T11:31:38 IST" finished-at="2020-09-26T11:32:13 IST">
+        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@481a15ff]" name="smoketest" duration-ms="42570" started-at="2020-10-04T11:08:39 IST" finished-at="2020-10-04T11:09:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smoketest -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@401e7803]" name="Tear" is-config="true" duration-ms="816" started-at="2020-09-26T11:32:13 IST" finished-at="2020-09-26T11:32:14 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@481a15ff]" name="Tear" is-config="true" duration-ms="2045" started-at="2020-10-04T11:09:21 IST" finished-at="2020-10-04T11:09:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=smoketest status=SUCCESS method=TC_Smoke.smoketest()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@401e7803] output={null}]]]>
+                <![CDATA[[TestResult name=smoketest status=SUCCESS method=TC_Smoke.smoketest()[pri:0, instance:com.commerce.qa.testcases.TC_Smoke@481a15ff] output={null}]]]>
               </value>
             </param>
           </params>
@@ -137,11 +108,15 @@
         </test-method> <!-- Tear -->
       </class> <!-- com.commerce.qa.testcases.TC_Smoke -->
       <class name="com.commerce.qa.testcases.Addresspagetest">
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="check" is-config="true" duration-ms="8070" started-at="2020-09-26T11:28:13 IST" finished-at="2020-09-26T11:28:21 IST">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="config" is-config="true" duration-ms="208" started-at="2020-10-04T11:03:32 IST" finished-at="2020-10-04T11:03:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="check" is-config="true" duration-ms="19905" started-at="2020-10-04T11:03:35 IST" finished-at="2020-10-04T11:03:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="verifyaddress" duration-ms="33512" started-at="2020-09-26T11:28:21 IST" data-provider="getNoptestdata" finished-at="2020-09-26T11:28:54 IST">
+        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="verifyaddress" duration-ms="39853" started-at="2020-10-04T11:03:55 IST" data-provider="getNoptestdata" finished-at="2020-10-04T11:04:35 IST">
           <params>
             <param index="0">
               <value>
@@ -182,22 +157,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyaddress -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="Tear" is-config="true" duration-ms="812" started-at="2020-09-26T11:28:54 IST" finished-at="2020-09-26T11:28:55 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="Tear" is-config="true" duration-ms="1239" started-at="2020-10-04T11:04:36 IST" finished-at="2020-10-04T11:04:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="check" is-config="true" duration-ms="7901" started-at="2020-09-26T11:28:55 IST" finished-at="2020-09-26T11:29:03 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="check" is-config="true" duration-ms="12784" started-at="2020-10-04T11:04:37 IST" finished-at="2020-10-04T11:04:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="verifyaddress" duration-ms="33894" started-at="2020-09-26T11:29:03 IST" data-provider="getNoptestdata" finished-at="2020-09-26T11:29:37 IST">
+        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="verifyaddress" duration-ms="35043" started-at="2020-10-04T11:04:50 IST" data-provider="getNoptestdata" finished-at="2020-10-04T11:05:25 IST">
           <params>
             <param index="0">
               <value>
@@ -238,22 +213,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyaddress -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="Tear" is-config="true" duration-ms="967" started-at="2020-09-26T11:29:37 IST" finished-at="2020-09-26T11:29:38 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="Tear" is-config="true" duration-ms="1262" started-at="2020-10-04T11:05:25 IST" finished-at="2020-10-04T11:05:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="check" is-config="true" duration-ms="8044" started-at="2020-09-26T11:29:38 IST" finished-at="2020-09-26T11:29:46 IST">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="check" is-config="true" duration-ms="11460" started-at="2020-10-04T11:05:26 IST" finished-at="2020-10-04T11:05:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="verifyaddress" duration-ms="31632" started-at="2020-09-26T11:29:46 IST" data-provider="getNoptestdata" finished-at="2020-09-26T11:30:18 IST">
+        <test-method status="PASS" signature="verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="verifyaddress" duration-ms="32454" started-at="2020-10-04T11:05:38 IST" data-provider="getNoptestdata" finished-at="2020-10-04T11:06:10 IST">
           <params>
             <param index="0">
               <value>
@@ -294,18 +269,64 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyaddress -->
-        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542]" name="Tear" is-config="true" duration-ms="823" started-at="2020-09-26T11:30:18 IST" finished-at="2020-09-26T11:30:19 IST">
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="Tear" is-config="true" duration-ms="1141" started-at="2020-10-04T11:06:10 IST" finished-at="2020-10-04T11:06:11 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@2e3fc542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyaddress status=SUCCESS method=Addresspagetest.verifyaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tear -->
+        <test-method status="PASS" signature="onFinish()[pri:0, instance:com.commerce.qa.testcases.Addresspagetest@4d1b0d2a]" name="onFinish" is-config="true" duration-ms="4726" started-at="2020-10-04T11:09:23 IST" finished-at="2020-10-04T11:09:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onFinish -->
       </class> <!-- com.commerce.qa.testcases.Addresspagetest -->
+      <class name="com.commerce.qa.testcases.Cartpagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.commerce.qa.testcases.Cartpagetest@710726a3]" name="setup" is-config="true" duration-ms="8082" started-at="2020-10-04T11:07:34 IST" finished-at="2020-10-04T11:07:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifycoupon()[pri:0, instance:com.commerce.qa.testcases.Cartpagetest@710726a3]" name="verifycoupon" duration-ms="12383" started-at="2020-10-04T11:07:42 IST" finished-at="2020-10-04T11:07:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycoupon -->
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Cartpagetest@710726a3]" name="Tear" is-config="true" duration-ms="1337" started-at="2020-10-04T11:07:54 IST" finished-at="2020-10-04T11:07:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycoupon status=SUCCESS method=Cartpagetest.verifycoupon()[pri:0, instance:com.commerce.qa.testcases.Cartpagetest@710726a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tear -->
+      </class> <!-- com.commerce.qa.testcases.Cartpagetest -->
+      <class name="com.commerce.qa.testcases.Wishlistpagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.commerce.qa.testcases.Wishlistpagetest@646007f4]" name="setup" is-config="true" duration-ms="10595" started-at="2020-10-04T11:07:56 IST" finished-at="2020-10-04T11:08:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyWishlistpage()[pri:0, instance:com.commerce.qa.testcases.Wishlistpagetest@646007f4]" name="VerifyWishlistpage" duration-ms="21910" started-at="2020-10-04T11:08:06 IST" finished-at="2020-10-04T11:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWishlistpage -->
+        <test-method status="PASS" signature="Tear(org.testng.ITestResult)[pri:0, instance:com.commerce.qa.testcases.Wishlistpagetest@646007f4]" name="Tear" is-config="true" duration-ms="1066" started-at="2020-10-04T11:08:28 IST" finished-at="2020-10-04T11:08:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyWishlistpage status=SUCCESS method=Wishlistpagetest.VerifyWishlistpage()[pri:0, instance:com.commerce.qa.testcases.Wishlistpagetest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tear -->
+      </class> <!-- com.commerce.qa.testcases.Wishlistpagetest -->
     </test> <!-- Ecommerce Application -->
   </suite> <!-- NopCommerce -->
 </testng-results>

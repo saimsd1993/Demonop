@@ -10,15 +10,18 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
+
 
 import com.commerce.qa.utils.Helper;
 import com.relevantcodes.extentreports.ExtentReports;
@@ -37,18 +40,18 @@ public class Baseclass {
 
 	public static WebDriverWait wait; 
 	
-	public static Logger logger;
-	
 	public  static ExtentReports extent;
 	
 	public static ExtentTest logger2;
 		
+	public static Logger logger;
 	
 	public Baseclass()
 	{
 		try
 		{
-			BasicConfigurator.configure();
+			logger=Logger.getLogger("Baseclass");
+			PropertyConfigurator.configure("log4j.properties");
 			prop=new Properties();
 			FileInputStream fis=new FileInputStream("G:\\Workspace\\Test_Ecommerce\\src\\main\\java\\com\\commerce\\qa\\config\\Config.Properties");
 			//InputStream is = Baseclass.class.getResourceAsStream("/src/main/java/com/commerce/qa/config/Config.Properties");
@@ -66,19 +69,14 @@ public class Baseclass {
 		}
 		
 	}
+	    
 		public static void fsetup() 
 		{
-			String br= prop.getProperty("browser");
+	    	String br=prop.getProperty("browser");
+			//String br= prop.getProperty("browser");
 			if(br.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver","G:\\Workspace\\Test_Ecommerce\\src\\main\\java\\com\\commerce\\qa\\drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
-			
-			
-			
-			
-			
-			
-		    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			}
 			else if(br.equals("firefox"))
 			{
@@ -92,6 +90,10 @@ public class Baseclass {
 				driver=new FirefoxDriver();
 				
 			    
+			}
+			else if(br.equals("safari"))
+			{
+				driver = new SafariDriver();
 			}
 			
 		    driver.manage().deleteAllCookies();

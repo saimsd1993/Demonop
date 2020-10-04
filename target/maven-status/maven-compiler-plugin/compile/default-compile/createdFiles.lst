@@ -1,0 +1,11 @@
+com\commerce\qa\pages\Addresspage.class
+com\commerce\qa\pages\Wishlistpage.class
+com\commerce\qa\pages\Loginpage.class
+com\commerce\qa\pages\SearchPage.class
+com\commerce\qa\pages\SmokeTest.class
+com\commerce\qa\pages\Cartpage.class
+com\commerce\qa\pages\Homepage.class
+com\commerce\qa\base\Baseclass.class
+com\commerce\qa\extentlistener\Extentreporter.class
+com\commerce\qa\utils\Testutil.class
+com\commerce\qa\utils\Helper.class
